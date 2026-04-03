@@ -7,20 +7,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-# -----------------------------
-# 0. Paths (GitHub-friendly)
-# -----------------------------
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-TRAIN_PATH = os.path.join(BASE_DIR, "data", "generated_ml_dataset_surrogate_ready_corrected.csv")
-VALIDATION_PATH = os.path.join(BASE_DIR, "data", "validation_1000_random_combinations.csv")
-
-OUTPUT_DIR = os.path.join(BASE_DIR, "outputs", "eff")
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-TEST_PREDICTIONS_PATH = os.path.join(OUTPUT_DIR, "nn_test_predictions_eff.csv")
-VALIDATION_PREDICTIONS_PATH = os.path.join(OUTPUT_DIR, "nn_validation_predictions_eff.csv")
-SUMMARY_METRICS_PATH = os.path.join(OUTPUT_DIR, "summary_metrics_eff.csv")
 
 # -----------------------------
 # 1. Load Data
