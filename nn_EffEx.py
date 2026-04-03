@@ -139,7 +139,7 @@ pd.DataFrame({
 # -----------------------------
 # 12. External validation
 # -----------------------------
-ext_df = pd.read_csv("data/effex_validation.csv")
+ext_df = pd.read_csv("data/eff_validation.csv")
 
 X_ext = ext_df[feature_cols].values
 y_ext = ext_df[target_col].values.reshape(-1, 1)
