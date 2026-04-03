@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # -----------------------------
 # 1. Load Data
 # -----------------------------
-df = pd.read_csv('data/effex_train.csv')
+df = pd.read_csv('data/eff_train.csv')
 
 # display settings
 pd.set_option('display.max_columns', None)
