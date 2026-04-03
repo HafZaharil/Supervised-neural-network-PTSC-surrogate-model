@@ -184,15 +184,13 @@ This transforms the model into a practical optimisation tool.
 ## Repository Structure
 
 ```
-├── models/
-│
-├── nn_eff.py
-├── nn_effex.py
-│
-├── README.md
 ├── .gitignore
 ├── LICENSE
-```
+├── README.md
+├── eff_train.csv
+├── eff_validation.csv
+├── nn_Eff.py
+└── nn_EffEx.py
 ---
 
 ## Description
