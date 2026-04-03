@@ -214,15 +214,6 @@ This transforms the model into a practical optimisation tool.
 
 ---
 
-## Output Files
-
-Each script generates:
-
-- `nn_test_predictions_*.csv`
-- `nn_validation_predictions_*.csv`
-- `summary_metrics_*.csv`  ← main results table
-
----
 
 ## Intended Use
 
