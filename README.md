@@ -78,7 +78,6 @@ Expected CSV columns:
 
 ### 2. Data Preprocessing
 
-- Replace `inf` and `-inf` with `NaN`  
 - Remove invalid rows  
 - Standardise input features using `StandardScaler`  
 
