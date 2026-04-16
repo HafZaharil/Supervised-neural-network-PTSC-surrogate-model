@@ -164,7 +164,7 @@ The script includes an interactive calculator.
 
 User inputs:
 
-- DNI (100–1000)  
+- DNI (100–1000 W/m^2)  
 - Tamb (10–50 °C)  
 - K (0–1)  
 
